@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #111112;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 100px;
+}
+
+header h1 {
+    font-size: 55px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 35px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+section#destaque img {
+    max-width: 25%;
+    margin: 10px 0;
+    margin-left: 130px;
+}
+
+/* Estilos específicos para a página de produtos */
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.produto img {
+    max-width: 25%;
+    margin-left: 270px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #111112;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
